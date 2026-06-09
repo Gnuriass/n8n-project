@@ -1,0 +1,7 @@
+n8n_data/
+n8n_files/
+files/
+dashboard/
+
+# ละเว้นไฟล์เก็บความลับ (ถ้ามี)
+.env
