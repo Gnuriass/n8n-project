@@ -170,15 +170,13 @@ This project was developed as part of coursework in the
 
 **Computer Engineering and Artificial Intelligence Program (CE)**
 
-at the
-
-**Thai-Nichi Institute of Technology (TNI)**.
+at the Thai-Nichi Institute of Technology (TNI).
 
 ---
-
 ## 👤 Author
 This repository is maintained by **Sarochinee Bunyarit**.
 ---
+
 # Mr.Guide: AI Automation ChatBot Platform for Digital Travel
 
 **Mr.Guide** เป็นแพลตฟอร์มแนะนำการท่องเที่ยวอัจฉริยะที่พัฒนาขึ้นเพื่อแก้ปัญหา "สภาวะข้อมูลล้นหลาม" (Information Overload) โดยการใช้ AI และ Automation เข้ามาช่วยวิเคราะห์และแนะนำสถานที่ท่องเที่ยวที่ตอบโจทย์ความสนใจเฉพาะบุคคลผ่านแอปพลิเคชัน LINE
