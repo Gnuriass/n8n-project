@@ -1,3 +1,184 @@
+# Mr.Guide: AI-Powered Travel Recommendation Platform
+
+**Mr.Guide** is an intelligent travel recommendation platform designed to address the problem of **information overload** in tourism planning. The system leverages Artificial Intelligence and workflow automation to analyze user preferences and provide personalized travel recommendations through the LINE Messaging Platform.
+
+---
+
+## 🌟 Features
+
+### Personalized Recommendations
+
+* Analyze user preferences and travel interests using AI.
+* Provide personalized destination recommendations with an estimated recommendation accuracy of **85–90%**.
+
+### Real-Time Automation
+
+* Fully automated workflows powered by **n8n**.
+* Minimize manual operations and improve response efficiency.
+
+### Seamless LINE Integration
+
+* Connect directly with the **LINE Messaging API**.
+* Enable users to interact with the chatbot through a familiar messaging platform.
+
+### Data-Driven Insights
+
+* Store conversation history and user interactions.
+* Support future recommendation improvements through behavioral analysis.
+
+---
+
+## 🏗️ System Architecture
+
+The system is designed using a layered architecture:
+
+### Input Layer
+
+* Receive user messages through LINE Webhooks.
+
+### AI Agent Layer
+
+* Process user requests using **Google Gemini**.
+* Perform intent recognition and recommendation generation.
+
+### Data Layer
+
+* Store user and destination data using:
+
+  * Google Sheets
+  * PDI Database
+
+### Business Logic Layer
+
+* Manage workflows for:
+
+  * Travel planning
+  * Booking processes
+  * Chatbot interactions
+
+### Analytics Layer
+
+* Track key metrics such as:
+
+  * Conversion Flags
+  * Happiness Scores
+  * Conversation Logs
+
+![System Architecture](./block-diagram.jpg)
+
+---
+
+## 🛠️ Technology Stack
+
+### Automation & Workflow
+
+* **n8n** – Workflow automation platform
+
+### Artificial Intelligence
+
+* **Google Gemini AI** – Large Language Model (LLM) for natural language understanding and recommendation generation
+
+### Infrastructure & Deployment
+
+* **Docker**
+* **Docker Compose**
+* **Ngrok**
+
+### External Services
+
+* **LINE Messaging API**
+* **Google Sheets**
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Docker
+* Docker Compose
+* LINE Developers Account
+* Gemini API Key
+
+### Installation
+
+#### 1. Clone the Repository
+
+```bash id="j3t45w"
+git clone https://github.com/Gnuriass/n8n-project.git
+cd n8n-project
+```
+
+#### 2. Create Required Directories
+
+Before starting the system, create the following folders inside the project directory:
+
+```text id="1h7j4d"
+n8n_data/
+files/
+```
+
+Purpose:
+
+* `n8n_data/`
+
+  * Stores n8n configuration files and workflow data.
+
+* `files/`
+
+  * Stores uploaded and generated files used by the system.
+
+#### 3. Start the Application
+
+Run Docker Compose in detached mode:
+
+```bash id="ew4xvn"
+docker compose up -d
+```
+
+#### 4. Access the Platform
+
+Once all containers are running, open:
+
+```text id="yx4a3i"
+http://localhost:5678
+```
+
+Configure:
+
+* LINE Messaging API credentials
+* Gemini API Key
+* Workflow settings
+
+---
+
+## 📊 Project Objectives
+
+This project aims to:
+
+* Apply Artificial Intelligence in tourism recommendation systems.
+* Reduce information overload during travel planning.
+* Develop practical workflow automation using n8n.
+* Integrate multiple cloud services and APIs into a unified platform.
+* Improve user experience through conversational AI.
+
+---
+
+## 🎓 Academic Context
+
+This project was developed as part of coursework in the
+
+**Computer Engineering and Artificial Intelligence Program (CE)**
+
+at the
+
+**Thai-Nichi Institute of Technology (TNI)**.
+
+---
+
+## 👤 Author
+This repository is maintained by **Sarochinee Bunyarit**.
+---
 # Mr.Guide: AI Automation ChatBot Platform for Digital Travel
 
 **Mr.Guide** เป็นแพลตฟอร์มแนะนำการท่องเที่ยวอัจฉริยะที่พัฒนาขึ้นเพื่อแก้ปัญหา "สภาวะข้อมูลล้นหลาม" (Information Overload) โดยการใช้ AI และ Automation เข้ามาช่วยวิเคราะห์และแนะนำสถานที่ท่องเที่ยวที่ตอบโจทย์ความสนใจเฉพาะบุคคลผ่านแอปพลิเคชัน LINE
@@ -49,10 +230,5 @@
 4. เข้าใช้งานระบบ
 เมื่อ Container เริ่มทำงานเรียบร้อยแล้ว คุณสามารถเข้าใช้งาน n8n ได้ที่:
 👉 http://localhost:5678 เพื่อทำการตั้งค่า Workflow และเชื่อมต่อ API Keys ต่างๆ (เช่น LINE Messaging API และ Gemini API Key)
-
-### 👥 Team Members
-1. สโรชินี บุญฤทธิ์
-2. ปรีชานนท์ โง้วสินรุ่งเรือง
-3. ปฐมพงศ์ มีอุปการ
    
 โครงการนี้เป็นส่วนหนึ่งของวิชาเรียน คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์และปัญญาประดิษฐ์ สถาบันเทคโนโลยีไทย-ญี่ปุ่น (TNI)
