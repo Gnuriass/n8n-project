@@ -1,4 +1,4 @@
-# Mr.Guide: AI-Powered Travel Recommendation Platform
+# Mr. Guide — Smart AI Tour Guide & Automation Agent
 
 **Mr.Guide** is an intelligent travel recommendation platform designed to address the problem of **information overload** in tourism planning. The system leverages Artificial Intelligence and workflow automation to analyze user preferences and provide personalized travel recommendations through the LINE Messaging Platform.
 
