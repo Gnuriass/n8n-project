@@ -87,9 +87,8 @@ The system is designed using a layered architecture:
 
 * **LINE Messaging API**
 * **Google Sheets**
-* 
+  
 ###API & Integration
-* **OpenAI API**
 * **Gemini API**
 * **Google APIs**
 * **OAuth**
