@@ -81,14 +81,19 @@ The system is designed using a layered architecture:
 ### Infrastructure & Deployment
 
 * **Docker**
-* **Docker Compose**
 * **Ngrok**
 
 ### External Services
 
 * **LINE Messaging API**
 * **Google Sheets**
-
+* 
+###API & Integration
+* **OpenAI API**
+* **Gemini API**
+* **Google APIs**
+* **OAuth**
+* **Webhooks**
 ---
 
 ## 🚀 Getting Started
